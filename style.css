@@ -1,3 +1,18 @@
+/* h1 {
+    font-size: 4vh;
+    font-weight: 800;
+}
 
+h2 {
+    font-size: 2vh;
+    font-weight: 500;
+} */
 
-
+#start {
+    background-color: rgb(65, 65, 65);
+    max-width: 100%;
+    color: aliceblue;
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 32px;
+}
