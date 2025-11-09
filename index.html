@@ -131,7 +131,7 @@
 				      <img src="/images/information-orientation-mobile.jpg" alt="information-orientation" />
 					</div>
 					<div class="ml-8">
-				      <h3 class="text-lg font-medium">Orientation date</h3>
+				      <h3 class="text-2xl font-medium">Orientation date</h3>
 				      <p class="font-light">Tue 10/11 & Wed 10/12: 8am-3pm</p>
 					  <button type="button" class="text-blue-400">Read more</button>
 					</div>
@@ -141,7 +141,7 @@
 					  <img src="/images/information-campus-mobile.jpg" alt="information-campus" class="mobile" />
 					</div>
 					<div class="ml-8">
-					  <h3 class="text-lg font-medium">Our campus</h3>
+					  <h3 class="text-2xl font-medium">Our campus</h3>
 					  <p class="font-light">Find which campus is close by you</p>
 					  <button type="button" class="text-blue-400">Read more</button>
 					</div>
@@ -151,7 +151,7 @@
 					  <img src="/images/information-guest-lecture-mobile.jpg" alt="information-guest" class="mobile" />
 					</div>
 					<div class="ml-8">
-					  <h3 class="text-lg font-medium">Special guest lecture</h3>
+					  <h3 class="text-2xl font-medium">Special guest lecture</h3>
 					  <p class="font-light">Join a keynote with Oliver Sack about music in medical treatment</p>
 					  <button type="button" class="text-blue-400">Read more</button>
 					</div>
@@ -161,13 +161,54 @@
 			  <div class="grid-cols-1">
 				<div class="flex justify-center items-center text-3xl font-bold pt-8 pb-4">
 					<h1>Start learning</h1></div>
-				<div class="bg-gray-300 flex justify-center items-center p-4 m-2"><h3>Engineering</h3></div>
-				<div class="bg-gray-300 flex justify-center items-center p-4 m-2"><h3>Computer art</h3></div>
-				<div class="bg-gray-300 flex justify-center items-center p-4 m-2"><h3>Design</h3></div>
-				<div class="bg-gray-300 flex justify-center items-center p-4 m-2"><h3>Data</h3></div>
-				<div class="bg-gray-300 flex justify-center items-center p-4 m-2"><h3>Business</h3></div>
-				<div class="bg-gray-300 flex justify-center items-center p-4 m-2"><h3>Marketing</h3></div>
+				<div class="bg-gray-300 flex justify-start p-4 m-2"><h3>Engineering</h3></div>
+				<div class="bg-gray-300 flex justify-start p-4 m-2"><h3>Computer art</h3></div>
+				<div class="bg-gray-300 flex justify-start p-4 m-2"><h3>Design</h3></div>
+				<div class="bg-gray-300 flex justify-start p-4 m-2"><h3>Data</h3></div>
+				<div class="bg-gray-300 flex justify-start p-4 m-2"><h3>Business</h3></div>
+				<div class="bg-gray-300 flex justify-start p-4 m-2"><h3>Marketing</h3></div>
 			  </div>
+			</section>
+			<section class="md:grid hidden grid-cols-3 grid-rows-[100px_1fr_1fr] gap-8 bg-gray-200 px-18">
+				<div class="col-span-3 grid justify-center items-center text-5xl font-bold my-8">
+					<h1>Start learning</h1>
+				</div>
+				<div class="bg-white mb-8">
+					<img src="/images/course-software.jpg" />
+					<h3 class="text-2xl font-medium mt-4 ml-4">Engineering</h3>
+					<p class="my-2 ml-4">COURSES</p>
+					<p class="ml-4 mb-6">Web Development, Mobile Development, iOT, APIs</p>
+				</div>
+				<div class="bg-white mb-8">
+					<img src="/images/course-computer-art.jpg" />
+					<h3 class="text-2xl font-medium mt-4 ml-4">Computer art</h3>
+					<p class="my-2 ml-4">COURSES</p>
+					<p class="ml-4 mb-6">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+				</div>
+				<div class="bg-white mb-8">
+					<img src="/images/course-design.jpg" />
+					<h3 class="text-2xl font-medium mt-4 ml-4">Design</h3>
+					<p class="my-2 ml-4">COURSES</p>
+					<p class="ml-4 mb-6">User Experience Design, User Research, Visual Design</p>
+				</div>
+				<div class="bg-white mb-8">
+					<img src="/images/course-data.jpg" />
+					<h3 class="text-2xl font-medium mt-4 ml-4">Data</h3>
+					<p class="my-2 ml-4">COURSES</p>
+					<p class="ml-4 mb-6">Data Science, Big Data, SQL, Data Visualization</p>
+				</div>
+				<div class="bg-white mb-8">
+					<img src="/images/course-business.jpg" />
+					<h3 class="text-2xl font-medium mt-4 ml-4">Business</h3>
+					<p class="my-2 ml-4">COURSES</p>
+					<p class="ml-4 mb-6">Product Development, Business Development, Startup</p>
+				</div>
+				<div class="bg-white mb-8">
+					<img src="/images/course-marketing.jpg" />
+					<h3 class="text-2xl font-medium mt-4 ml-4">Marketing</h3>
+					<p class="my-2 ml-4">COURSES</p>
+					<p class="ml-4 mb-6">Analytics, Content Marketing, Mobile Marketing</p>
+				</div>
 			</section>
 			<section class="md:hidden flex flex-col justify-center">
 				<div class="flex justify-center items-center">
@@ -177,30 +218,32 @@
 					<video src="/videos/thesis.mp4" controls>Video not supported</video>
 				</div>
 			</section>
-			<section class="md:flex hidden flex-col">
-				<div class="flex justify-center items-center">
+			<section class="md:grid hidden grid-cols-[3/5_2/5] grid-rows-[100px_1fr] gap-x-6">
+				<div class="col-span-2 grid justify-center items-center">
 				  <h1 class="text-5xl font-bold mt-8 mb-4">Thesis exhibits</h1>
 				</div>
-				<div class="flex justify-center items-start">
-				<div class="flex justify-start mb-6 w-3/5">
-					<video src="/videos/thesis.mp4" controls>Video not supported</video>
-				</div>
-				<div class="w-2/5 flex flex-col justify-start">
-					<div class="flex justify-start items-start">
-						<div class="w-35/100 p-4"><img src="/images/thesis-fisma.jpg" /></div>
-						<div class="w-65/100 flex flex-col justify-center items-start">
-						  <h3 class="text-2xl font-medium">Fisma: Design and Prototype</h3>
-						  <p class="font-light">Designer showcase of prototype product</p>
-						</div>
-					</div>
-					<div class="flex justify-start items-start">
-						<div class="w-35/100 p-4"><img src="/images/thesis-now-and-then.jpg" /></div>
-						<div class="w-65/100 flex flex-col justify-center items-start">
-						  <h3 class="text-2xl font-medium">Now and then</h3>
-						  <p class="font-light">Research study about New York</p>
-						</div>
-					</div>
-				</div>
+				<div class="flex justify-start">
+				    <div class="flex flex-col justify-start mb-6 ml-6 w-3/5">
+					    <video src="/videos/thesis.mp4" controls>Video not supported</video>
+					    <h3 class="text-2xl font-medium mt-6 mb-2">Reimagine urban</h3>
+					    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ipsa incidunt iure quisquam cumque enim doloremque hic numquam dolore? Ullam deserunt eum provident exercitationem optio excepturi mollitia dolorem repellendus placeat?</p>
+				    </div>
+				    <div class="flex flex-col justify-start">
+					    <div class="flex justify-start items-center bg-gray-300">
+						    <div class="w-35/100 p-4"><img src="/images/thesis-fisma.jpg" /></div>
+						    <div class="w-65/100 flex flex-col justify-center items-start">
+						        <h3 class="text-2xl font-medium">Fisma: Design and Prototype</h3>
+						        <p class="font-light">Designer showcase of prototype product</p>
+						    </div>
+					    </div>
+					    <div class="flex justify-start items-center">
+						    <div class="w-35/100 p-4"><img src="/images/thesis-now-and-then.jpg" /></div>
+						    <div class="w-65/100 flex flex-col justify-center items-start">
+						        <h3 class="text-2xl font-medium">Now and then</h3>
+						        <p class="font-light">Research study about New York</p>
+						    </div>
+					    </div>
+				  </div>
 				</div>
 			</section>
 		</main>
